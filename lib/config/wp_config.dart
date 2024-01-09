@@ -2,7 +2,7 @@ class WpConfig {
 
 
   // YOUR WEBISTE URL
-  static const String baseURL = "YOUR_WEBSITE_URL";
+  static const String baseURL = "https://www.blog.ecoo-cycle.com";
   
 
   // FEATURE IMGAE -  IF YOUR POSTS DON"T HAVE A FEATURE IMAGE
