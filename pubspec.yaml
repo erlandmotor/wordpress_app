@@ -1,0 +1,132 @@
+name: wordpress_app
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 2.0.5+19
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cached_network_image: ^3.3.0
+  cupertino_icons: ^1.0.5
+  dots_indicator: ^3.0.0
+  google_fonts: ^4.0.4
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  html_unescape: ^2.0.0
+  http: ^1.1.0
+  jiffy: ^6.2.1
+  path_provider: ^2.0.15
+  provider: ^6.0.3
+  shared_preferences: ^2.2.0
+  skeleton_text: ^3.0.1
+  firebase_core: ^2.14.0
+  firebase_messaging: ^14.6.4
+  rounded_loading_button: ^2.1.0
+  flutter_svg: ^2.0.7
+  url_launcher: ^6.1.12
+  share: ^2.0.4
+  launch_review: ^3.0.1
+  package_info: ^2.0.2
+  easy_localization: ^3.0.2
+  animated_bottom_navigation_bar: ^1.2.0
+  flutter_web_browser: ^0.17.1
+  flare_flutter: ^3.0.2
+  fluttertoast: ^8.2.2
+  google_mobile_ads: ^3.0.0
+  loading_indicator: ^3.1.1
+  flutter_html: ^3.0.0-beta.2
+  flutter_html_table: ^3.0.0-beta.2
+  flutter_html_audio: ^3.0.0-beta.2
+  flutter_html_svg: ^3.0.0-beta.2
+  firebase_analytics: ^10.4.3
+  pod_player: ^0.2.1
+  flutter_icons:
+    git:
+      url: https://github.com/adarsh-technocrat/flutter-icons
+  app_settings: ^5.0.0
+  uni_links: ^0.5.1
+  timeago: ^3.5.0
+  reading_time: ^2.0.0
+  webview_flutter: ^4.2.2
+  introduction_screen: ^3.1.9
+  flutter_displaymode: ^0.6.0
+  google_sign_in: ^6.1.4
+  flutter_facebook_auth: ^6.0.1
+  sign_in_with_apple: ^5.0.0
+  crypto: ^3.0.3
+  firebase_auth: ^4.6.3
+
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.2
+  change_app_package_name: ^1.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icon.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
+    
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/translations/
+    - assets/animation_files/
+
+  fonts:
+
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Manrope-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Manrope-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Manrope-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Manrope-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Manrope-ExtraBold.ttf
+          weight: 800
+
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Light.ttf
+          weight: 400
+        - asset: assets/fonts/Raleway-ExtraBold.ttf
+          weight: 800
+
+
+    - family: Open Sans
+      fonts:
+        - asset: assets/fonts/OpenSans-Light.ttf
+          weight: 400
+        - asset: assets/fonts/OpenSans-Regular.ttf
+          weight: 500
+
+
+
+
